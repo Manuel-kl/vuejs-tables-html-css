@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: space-between;
+    background-color: var(--maingray);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+
+.back {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+.back :nth-child(1) {
+    margin: 0 15px;
+    font-size: 30px;
+}
+
+.back :nth-child(2) {
+    color: rgb(150, 136, 136);
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+}

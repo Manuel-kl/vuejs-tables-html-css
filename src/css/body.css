@@ -1,0 +1,41 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+tr,
+td {
+    border: 1.5px solid var(--bordergray);
+    padding: 2px 10px;
+}
+
+tr :nth-child(1) {
+    width: 450px;
+}
+
+tr :nth-child(2) {
+    width: 300px;
+}
+
+tr :nth-child(3) {
+    width: 300px;
+}
+
+tr :nth-child(4) {
+    width: 180px;
+    text-align: center;
+    font-size: 25px;
+}
