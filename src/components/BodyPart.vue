@@ -6,7 +6,7 @@
     <div class="table">
       <table>
         <tr>
-          <td>Begining App Development with VueJs</td>
+          <td>Begining Web Development with VueJs</td>
           <td>Rap Payne</td>
           <td>Apress</td>
           <td class="star">&#9733;</td>
@@ -45,6 +45,64 @@
           <td>VueJs in Action</td>
           <td>Eric Windmill</td>
           <td>Manning Publications</td>
+          <td class="star">&#9733;</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="body-small">
+    <div class="title-small">
+      <p>My Favorite Books</p>
+    </div>
+    <div class="table-small">
+      <table>
+        <tr>
+          <td>
+            <h3>Begining Web Development With VueJs</h3>
+            <P>Rap Payne</P>
+          </td>
+          <td class="star">&#9733;</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>VueJs For Dummies</h3>
+            <p>Barry Burd</p>
+          </td>
+          <td class="star">&#9733;</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>VueJs CookBook</h3>
+            <p>Sirmone Alessandria, Brian Kayfitz</p>
+          </td>
+          <td class="star">&#9733;</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Weekly World News</h3>
+            <p>null</p>
+          </td>
+          <td class="star">&#9733;</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>VueJs for Beginners</h3>
+            <p>Thomas Bailey, Alessandro Blessek, Trevor Wills</p>
+          </td>
+          <td class="star">&#9733;</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Practical VueJsh</h3>
+            <p>Frank Zammetti</p>
+          </td>
+          <td class="star">&#9733;</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>VueJs in action</h3>
+            <p>Eric Windmill</p>
+          </td>
           <td class="star">&#9733;</td>
         </tr>
       </table>

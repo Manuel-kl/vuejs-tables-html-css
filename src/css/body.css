@@ -1,4 +1,5 @@
-.body {
+.body,
+.body-small {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,41 +17,78 @@ table {
     justify-content: center;
 }
 
-td,
-tr {
+.table-small {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.body td,
+.body tr {
     border: 1px solid var(--bordergray);
-    padding: 2px 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.body tr :nth-child(1) {
+    width: 400px;
+}
+
+.body-small tr :nth-child(1) {
+    width: 300px;
+}
+
+.body-small h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.body-small p {
     font-size: 14px;
+    font-weight: 100;
 }
 
-tr :nth-child(1) {
-    width: 450px;
+.body-small tr {
+    padding-bottom: 20px;
 }
 
-tr :nth-child(2) {
+.body tr :nth-child(2) {
     width: 300px;
 }
 
-tr :nth-child(3) {
+.body-small .star {
+    width: 150px;
+    text-align: end;
+    color: var(--mainred);
+    font-size: 30px;
+}
+
+.body tr :nth-child(3) {
     width: 300px;
 }
 
-tr :nth-child(4) {
+.body tr :nth-child(4) {
     width: 180px;
     text-align: center;
+}
+
+.body .star {
+    color: var(--mainred);
     font-size: 25px;
 }
 
-.star {
-    color: var(--mainred);
+.body tr {
+    width: 100%;
 }
 
-.title {
+.title,
+.title-small {
     text-align: center;
     margin-top: 20px;
 }
 
-.title p {
+.title p,
+.title-small p {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
