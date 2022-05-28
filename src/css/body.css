@@ -20,7 +20,7 @@ table {
 .table-small {
     display: flex;
     justify-content: flex-start;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .body td,
@@ -39,12 +39,12 @@ table {
 }
 
 .body-small h3 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .body-small p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100;
 }
 
