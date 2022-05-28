@@ -9,3 +9,7 @@
     --mainred: rgb(245, 63, 63);
     --bordergray: rgb(99, 113, 117);
 }
+
+#body {
+    min-width: 750px;
+}
